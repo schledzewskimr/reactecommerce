@@ -1,13 +1,15 @@
-import React,{Component} from 'react';
+import React from 'react';
 import NavBar from './NavBar'
+import CartItems from './CartItems'
 import './index.css'
 
-export default class Cart extends Component {
-    render(){
-        return(
-            <React.Fragment>
-                <NavBar />
-            </React.Fragment>
-        )
-    }
+function Cart(){
+    return(
+        <React.Fragment>
+            <NavBar />
+            <CartItems />
+        </React.Fragment>
+    )
 }
+
+export default Cart

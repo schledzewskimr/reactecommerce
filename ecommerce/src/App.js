@@ -1,36 +1,19 @@
-import React,{Component} from 'react';
-import NavBar from './NavBar'
-import {Container, Row, Col, Card, Form, Button } from "react-bootstrap";
-import Shopping from './Shopping';
-import './index.css'
-import Sidebar from './Sidebar'
-import CarouselContent from './CarouselContent'
+import React from 'react';
+import Cart from './Cart';
+import About from './About';
+import Home from './Home.jsx';
+import './index.css';
+import { Routes, Route, Link } from 'react-router-dom';
 
-export default class App extends Component {
-    render() {
-        const SideBar = props => {
-            return (
-                <>
-                    <Container fluid>
-                        <Row>
-                            <Col xs={2} id="sidebar-wrapper">      
-                                <Sidebar />
-                            </Col>
-                            <Col  xs={10} id="page-content-wrapper">
-                                this is a test
-                            </Col> 
-                        </Row>
-                    </Container>
-                </>
-                );
-        };
+function App() {
         return(
             <React.Fragment>
-                <NavBar />
-                <CarouselContent />
-                <Shopping />
-                <SideBar />
+                <Routes>
+                    <Route path="/" element={<Home/>} />
+                    <Route path="/about" element={<About/>} />
+                    <Route path="/cart" element={<Cart/>} />
+                </Routes>
             </React.Fragment>
         )
-    }
 }
+export default App

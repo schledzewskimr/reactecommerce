@@ -1,0 +1,118 @@
+.html{
+    background-color: #343a40;
+}
+#root{
+    background-color: #343a40;
+}
+.me-auto{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-brand{
+    font-size:40px;
+}
+.navbar-light .navbar-brand{
+    color:white;
+    margin-right:100px;
+}
+.navbar-light .navbar-brand:hover{
+    color:goldenrod;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left:50px;
+    padding-right: 50px;
+}
+.navbar-expand-lg .navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.Navbar{
+    top:0;
+    position: sticky;
+    z-index: 100;
+    border-bottom: 2px solid goldenrod;
+}
+.account{
+    display: flex;
+    justify-content: space-between;
+}
+svg{
+    stroke: currentColor;
+    color:white;
+}
+svg:hover{
+    color: goldenrod;
+}
+
+.dropdown-item{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+.dropdown{
+    stroke:currentColor;
+    stroke:#343a40;
+}
+.carousel-item{
+    max-height: 200px;
+}
+.carousel{
+    max-width: 85%;
+}
+.carousel-dark .carousel-caption{
+    color:white;
+}
+.carousel-inner{
+    background-image: linear-gradient(to bottom right, #343a40, #4b4d50);
+}
+.ItemCards{
+    margin:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    width:800px;
+    justify-content: space-around!important;
+}
+.card{
+    border: 2px solid goldenrod;
+}
+.card-img-top{
+    width: 284px;
+    height: 286px;
+    border-bottom: 2px solid goldenrod;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100vh !important;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    width: 215px;
+    background-color: #343a40!important;
+    border-left: 2px solid goldenrod;
+}
+#sidebar-wrapper{
+    min-height: 100%;
+    width: 20px;
+    margin-left: -1rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#page-content-wrapper {
+    min-width: 0;
+    width: 20%;
+}

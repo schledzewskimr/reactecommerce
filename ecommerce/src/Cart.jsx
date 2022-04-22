@@ -7,6 +7,7 @@ function Cart(){
     return(
         <React.Fragment>
             <NavBar />
+            <h1>this is your cart</h1>
             <CartItems />
         </React.Fragment>
     )

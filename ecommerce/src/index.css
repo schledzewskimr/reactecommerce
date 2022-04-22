@@ -147,3 +147,10 @@ svg:hover{
     margin:15px;
     width: 150px;
 }
+.nav.justify-content-center{
+    background-color: #343a40;
+}
+.cart{
+    height:450px;
+    padding:20px;
+}

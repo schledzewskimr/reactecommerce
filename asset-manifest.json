@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactecommerce/static/css/main.00f40571.css",
+    "main.js": "/reactecommerce/static/js/main.8c5d5940.js",
+    "index.html": "/reactecommerce/index.html",
+    "main.00f40571.css.map": "/reactecommerce/static/css/main.00f40571.css.map",
+    "main.8c5d5940.js.map": "/reactecommerce/static/js/main.8c5d5940.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00f40571.css",
+    "static/js/main.8c5d5940.js"
+  ]
+}
